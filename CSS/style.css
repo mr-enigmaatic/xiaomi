@@ -1,0 +1,134 @@
+.brand-logo{
+    width: 32px;
+    height: 32px;
+}
+
+.content-row.row1 .text-wrapper{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 500px;
+    color: white;   
+}
+
+.content-row.row2 .text-wrapper{
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 500px;
+  color: white;   
+}
+
+.content-row.row3 .text-wrapper{
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;  
+}
+
+
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+
+  @media(max-width:767px){
+    .content-wrapper *{
+      font-size: 20px;
+    }
+  }
+
+  /* Footer CSS */
+.footer-wrapper{
+  padding: 0px 32px;
+}
+.footer-wrapper ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-wrapper .title{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0px 0px 16px;
+}
+.footer-wrapper ul li{
+  padding: 0px 0px 16px;
+}
+.footer-wrapper ul li a{
+  text-decoration: none;
+  color: #898989 ;
+  font-size: 16px;
+}
+
+.footer-wrapper ul li a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.footer .follow-wrapper .icon-wrapper img{
+  width: 40px;
+  margin: 0px 10px 20px 0px;
+}
+
+.footer .follow-wrapper input{
+  margin: 10px 0px 32px;
+}
+
+.footer .footer-aside .app-wrapper .qr-section{
+  padding: 0px 20px;
+}
+.footer .footer-aside .app-wrapper .qr-section img{
+  width: 64px;
+  margin: 5px 10px 5px 0px;
+  border: 3px solid white;
+  border-radius: 6px;
+}
+
+.footer .footer-aside .app-wrapper .qr-section p{
+  color: #898989;
+}
+
+.footer .footer-aside .app-wrapper{
+  padding: 20px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.footer .footer-aside .app-wrapper .playstore-sction{
+  padding-top: 20px;
+  border-top: 1px solid white;
+}
+
+.footer .footer-aside .app-wrapper .playstore-sction img{
+  width: 40px;
+}
+
+.footer .legal{
+  border-top: 1px solid white;
+  margin-top: 42px;
+}
+
+.footer .legal span{
+  color: white;
+  display: block;
+  margin: 42px 0px;
+}
+
+@media (max-width:767px){
+ .footer .footer-nav{
+  display: none;
+ }
+}
